@@ -35,73 +35,190 @@ function woohire_shortcode() {
   
     // Things that you want to do.
     $html = '
+    <!-- Start Accordion Serction -->
     <div class="accordion-container">
     <h2>Choose the Service</h2>
     <div class="set">
-       <a href="#">
-       WordPress Website Development
-       <i class="fa fa-plus"></i>
-       </a>
-       <div class="content">
-          <div class="sub-set">
-             <h3>Choose the Package of WordPress Website Development</h3>
-             <a href="#">
-             Basic Package
-             <i class="fa fa-plus"></i>
-             </a>
-             <div class="sub-content">
-                <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
-             </div>
-          </div>
-          <div class="sub-set">
-             <a href="#">
-             Standard Package 
-             <i class="fa fa-plus"></i>
-             </a>
-             <div class="sub-content">
-                <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
-             </div>
-          </div>
-          <div class="sub-set">
-             <a href="#">
-             Premium Package 
-             <i class="fa fa-plus"></i>
-             </a>
-             <div class="sub-content">
-                <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
-             </div>
-          </div>
-       </div>
+      <a href="#">
+        WordPress Website Development 
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+        <!-- Start Pricing Table Section -->
+<section class="pricing-plans">
+      <div class="pricing-card basic">
+        <div class="heading">
+          <h4>BASIC</h4>
+          <p>for small websites or blogs</p>
+        </div>
+        <p class="price">
+          $2
+          <sub>/month</sub>
+        </p>
+        <ul class="features">
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>1 domain</strong> name
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>10 GB</strong> of disk space
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>100GB </strong>of bandwidth
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>1 MySQL</strong> database
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>5 email</strong> accounts
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>cPanel</strong> control panel
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Free SSL</strong> certificate
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>24/7</strong> support
+          </li>
+        </ul>
+        <button class="cta-btn">SELECT</button>
+      </div>
+      <div class="pricing-card standard">
+        <div class="heading">
+          <h4>STANDARD</h4>
+          <p>for medium-sized businesses</p>
+        </div>
+        <p class="price">
+          $5
+          <sub>/month</sub>
+        </p>
+        <ul class="features">
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Unlimited</strong> domain name
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>50 GB</strong> of disk space
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>500GB </strong>of bandwidth
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>10 MySQL</strong> database
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>50 email</strong> accounts
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>cPanel</strong> control panel
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Free SSL</strong> certificate
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>24/7</strong> support
+          </li>
+        </ul>
+        <button class="cta-btn">SELECT</button>
+      </div>
+      <div class="pricing-card premium">
+        <div class="heading">
+          <h4>PREMIUM</h4>
+          <p>for small businesses</p>
+        </div>
+        <p class="price">
+          $10
+          <sub>/month</sub>
+        </p>
+        <ul class="features">
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Unlimited</strong> domain name
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>100 GB</strong> of disk space
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>1TB </strong>of bandwidth
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Unlimited MySQL</strong> database
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Unlimited email</strong> accounts
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>cPanel</strong> control panel
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Free SSL</strong> certificate
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>24/7 priority</strong> support
+          </li>
+          <li>
+            <i class="fa-solid fa-check"></i>
+            <strong>Advanced</strong> security features
+          </li>
+        </ul>
+        <button class="cta-btn">SELECT</button>
+      </div>
+    </section>
+<!-- Start Pricing Table Section -->
+      </div>
     </div>
- </div>
- <div class="set">
-    <a href="#">
-    Phasellus 
-    <i class="fa fa-plus"></i>
-    </a>
-    <div class="content">
-       <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+    <div class="set">
+      <a href="#">
+        Phasellus 
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+      </div>
     </div>
- </div>
- <div class="set">
-    <a href="#">
-    Praesent 
-    <i class="fa fa-plus"></i>
-    </a>
-    <div class="content">
-       <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+    <div class="set">
+      <a href="#">
+        Praesent 
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
     </div>
- </div>
- <div class="set">
-    <a href="#">
-    Curabitur 
-    <i class="fa fa-plus"></i> 
-    </a>
-    <div class="content">
-       <p> Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus odio pretium scelerisque. </p>
+    <div class="set">
+      <a href="#">
+        Curabitur 
+        <i class="fa fa-plus"></i> 
+      </a>
+      <div class="content">
+        <p> Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus odio pretium scelerisque. </p>
+      </div>
     </div>
- </div>
- </div>
+  </div>    
+  <!-- End Accordion Serction -->
    
     '; 
       
