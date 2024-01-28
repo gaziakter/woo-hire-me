@@ -36,44 +36,73 @@ function woohire_shortcode() {
     // Things that you want to do.
     $html = '
     <div class="accordion-container">
-    <h2>jQuery Accordion</h2>
+    <h2>Choose the Service</h2>
     <div class="set">
-      <a href="#">
-        Vestibulum 
-        <i class="fa fa-plus"></i>
-      </a>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-      </div>
+       <a href="#">
+       WordPress Website Development
+       <i class="fa fa-plus"></i>
+       </a>
+       <div class="content">
+          <div class="sub-set">
+             <h3>Choose the Package of WordPress Website Development</h3>
+             <a href="#">
+             Basic Package
+             <i class="fa fa-plus"></i>
+             </a>
+             <div class="sub-content">
+                <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+             </div>
+          </div>
+          <div class="sub-set">
+             <a href="#">
+             Standard Package 
+             <i class="fa fa-plus"></i>
+             </a>
+             <div class="sub-content">
+                <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+             </div>
+          </div>
+          <div class="sub-set">
+             <a href="#">
+             Premium Package 
+             <i class="fa fa-plus"></i>
+             </a>
+             <div class="sub-content">
+                <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+             </div>
+          </div>
+       </div>
     </div>
-    <div class="set">
-      <a href="#">
-        Phasellus 
-        <i class="fa fa-plus"></i>
-      </a>
-      <div class="content">
-        <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
-      </div>
+ </div>
+ <div class="set">
+    <a href="#">
+    Phasellus 
+    <i class="fa fa-plus"></i>
+    </a>
+    <div class="content">
+       <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
     </div>
-    <div class="set">
-      <a href="#">
-        Praesent 
-        <i class="fa fa-plus"></i>
-      </a>
-      <div class="content">
-        <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-      </div>
+ </div>
+ <div class="set">
+    <a href="#">
+    Praesent 
+    <i class="fa fa-plus"></i>
+    </a>
+    <div class="content">
+       <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
     </div>
-    <div class="set">
-      <a href="#">
-        Curabitur 
-        <i class="fa fa-plus"></i> 
-      </a>
-      <div class="content">
-        <p> Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus odio pretium scelerisque. </p>
-      </div>
+ </div>
+ <div class="set">
+    <a href="#">
+    Curabitur 
+    <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+       <p> Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus odio pretium scelerisque. </p>
     </div>
-  </div>
+ </div>
+ </div>
+   
     '; 
       
     // Output needs to be return
