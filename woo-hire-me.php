@@ -21,8 +21,8 @@
 // //Enquew Style and Script
 function woo_hire_script_style() {
 
-    wp_enqueue_style( 'woo-hire-style', plugin_dir_url( __FILE__ ) . "assets/woo-hire-style.css", null, time() );
-    wp_enqueue_script( 'woo-hire-js', plugin_dir_url( __FILE__ ) . "assets/woo-hire-script.js", array( 'jquery' ), time(), true );
+    wp_enqueue_style( 'woohire-style', plugin_dir_url( __FILE__ ) . "assets/css/woohire-style.css", null, time() );
+    wp_enqueue_script( 'woohire-js', plugin_dir_url( __FILE__ ) . "assets/js/woohire-script.js", array( 'jquery' ), time(), true );
 
 }
 
@@ -30,32 +30,54 @@ add_action( 'wp_enqueue_scripts', 'woo_hire_script_style' );
 
 
 
-// Create hire_me shortcode 
-function woo_hire_create_shortcode() {
-    echo "This is short code";
-    ?>
-    <div class="woo-hire-menu">
-        <ul>
-            <li id="select_service">Select Service</li>
-                <ul id="sevice_list">
-                    <li>Web Development</li>
-                    <li>Web Development</li>
-                    <li>Web Development</li>
-                    <li>Web Development</li>
-                </ul>
-
-        </ul>
-        <ul>
-            <li>Select package</li>
-            <li>Basic - Web Development</li>
-        </ul>
-        <ul>
-            <li><a href="#">Checkout</a></li>
-        </ul>
+// function that runs when shortcode is called
+function woohire_shortcode() { 
+  
+    // Things that you want to do.
+    $html = '
+    <div class="accordion-container">
+    <h2>jQuery Accordion</h2>
+    <div class="set">
+      <a href="#">
+        Vestibulum 
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
     </div>
-  <?php
+    <div class="set">
+      <a href="#">
+        Phasellus 
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p> Aliquam cursus vitae nulla non rhoncus. Nunc condimentum erat nec dictum tempus. Suspendisse aliquam erat hendrerit vehicula vestibulum.</p>
+      </div>
+    </div>
+    <div class="set">
+      <a href="#">
+        Praesent 
+        <i class="fa fa-plus"></i>
+      </a>
+      <div class="content">
+        <p>Pellentesque aliquam ligula libero, vitae imperdiet diam porta vitae. sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+      </div>
+    </div>
+    <div class="set">
+      <a href="#">
+        Curabitur 
+        <i class="fa fa-plus"></i> 
+      </a>
+      <div class="content">
+        <p> Donec tincidunt consectetur orci at dignissim. Proin auctor aliquam justo, vitae luctus odio pretium scelerisque. </p>
+      </div>
+    </div>
+  </div>
+    '; 
+      
+    // Output needs to be return
+    return $html;
 }
-add_shortcode('hire_me', 'woo_hire_create_shortcode');
-
-
-
+// register shortcode
+add_shortcode('woohire', 'woohire_shortcode');
