@@ -25,6 +25,23 @@
                 .slideDown(500);
             }
         });
-    });
-})(jQuery);
 
+  // Starting condition when page loads
+  $('.tabs-stage section').hide();
+  $('.tabs-stage section:first').show();
+  $('.tabs-stage section:first').addClass('active');
+  $('.tabs-nav li:first').addClass('tab-active');
+  
+  // condition for tab click
+  $('.tabs-nav a').on('click', function(event){
+    event.preventDefault();
+    $('.tabs-nav li').removeClass('tab-active');
+    $(this).parent().addClass('tab-active');
+    $('.tabs-stage section').hide();
+    $('.tabs-stage section').removeClass('active');
+    $($(this).attr('href')).addClass('active');
+    $($(this).attr('href')).fadeIn();
+  });
+  
+      });
+})(jQuery);
