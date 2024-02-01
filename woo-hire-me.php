@@ -21,6 +21,7 @@
 // //Enquew Style and Script
 function woo_hire_script_style() {
 
+    wp_enqueue_style( 'font-awesome', plugin_dir_url( __FILE__ ) . "assets/css/font-awesome.min.css", null, time() );
     wp_enqueue_style( 'woohire-style', plugin_dir_url( __FILE__ ) . "assets/css/woohire-style.css", null, time() );
     wp_enqueue_script( 'woohire-js', plugin_dir_url( __FILE__ ) . "assets/js/woohire-script.js", array( 'jquery' ), time(), true );
 
