@@ -50,9 +50,9 @@ function woohire_shortcode() {
            <!-- Start Tab section  -->
            <div class="tabs">
                <ul class="tabs-nav">
-                 <li><a href="#tab-1">Features</a></li>
-                 <li><a href="#tab-2">Details</a></li>
-                 <li><a href="#tab-3">Details</a></li>
+                 <li><a href="#tab-1">Basic</a></li>
+                 <li><a href="#tab-2">Standard</a></li>
+                 <li><a href="#tab-3">Premium</a></li>
                </ul>
              <div class="tabs-stage">
                  <section id="tab-1">
@@ -65,43 +65,21 @@ function woohire_shortcode() {
                  </div>
                  <p class="price">
                    $2
-                   <sub>/month</sub>
                  </p>
                  <ul class="features">
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>1 domain</strong> name
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>10 GB</strong> of disk space
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>100GB </strong>of bandwidth
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>1 MySQL</strong> database
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>5 email</strong> accounts
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>cPanel</strong> control panel
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>Free SSL</strong> certificate
-                   </li>
-                   <li>
-                     <i class="fa-solid fa-check"></i>
-                     <strong>24/7</strong> support
-                   </li>
+                   <li><i class="fa fa-solid fa-check"></i>Domain and Hosting setup</li>
+                   <li><i class="fa fa-solid fa-check"></i> WordPress installation & Demo Input</li>
+                   <li><i class="fa fa-solid fa-check"></i> Responsive Design</li>
+                   <li><i class="fa fa-solid fa-check"></i> Browser compatibility</li>
+                   <li><i class="fa fa-solid fa-check"></i> Content Upload</li>
+                   <li><i class="fa fa-solid fa-check"></i> Number of Pages : 5</li>
+                   <li> <i class="fa fa-solid fa-check"></i> Speed Optimization</li>
+                   <li><i class="fa fa-solid fa-check"></i>Multi-layer Security</li>
+                   <li><i class="fa fa-solid fa-check"></i>Revision: 3</li>
+                   <li><i class="fa fa-solid fa-check"></i>Support: 3 Months</li>
+                   <li><i class="fa fa-solid fa-check"></i>Delivery Time: 3 Days</li>
                  </ul>
-                 <button class="cta-btn">SELECT</button>
+                 <a class="cta-btn" href = "link"> Order Now </a>
                </div>
                  </div>
                  <!-- Start Pricing Table Section -->
