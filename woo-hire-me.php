@@ -38,7 +38,7 @@ function woohire_shortcode() {
     $html = '
     <!-- Start Accordion Serction -->
     <div class="accordion-container">
-       <h2>Choose the Service</h2>
+       <h2>Choose the Service & Package</h2>
        <div class="set">
          <a href="#">
            WordPress Website Development 
@@ -63,21 +63,17 @@ function woohire_shortcode() {
                    <h4>BASIC</h4>
                    <p>for small websites or blogs</p>
                  </div>
-                 <p class="price">
-                   $2
-                 </p>
+                 <p class="price">$100</p>
                  <ul class="features">
-                   <li><i class="fa fa-solid fa-check"></i>Domain and Hosting setup</li>
-                   <li><i class="fa fa-solid fa-check"></i> WordPress installation & Demo Input</li>
-                   <li><i class="fa fa-solid fa-check"></i> Responsive Design</li>
-                   <li><i class="fa fa-solid fa-check"></i> Browser compatibility</li>
-                   <li><i class="fa fa-solid fa-check"></i> Content Upload</li>
-                   <li><i class="fa fa-solid fa-check"></i> Number of Pages : 5</li>
-                   <li> <i class="fa fa-solid fa-check"></i> Speed Optimization</li>
-                   <li><i class="fa fa-solid fa-check"></i>Multi-layer Security</li>
-                   <li><i class="fa fa-solid fa-check"></i>Revision: 3</li>
-                   <li><i class="fa fa-solid fa-check"></i>Support: 3 Months</li>
-                   <li><i class="fa fa-solid fa-check"></i>Delivery Time: 3 Days</li>
+                  <li class="fea-items">Domain and Hosting setup</li>
+                  <li class="fea-items">WordPress installation & Demo Input</li>
+                  <li class="fea-items">Content Upload</li>
+                  <li class="fea-items">Number of Pages : 5</li>
+                  <li class="fea-items">Speed Optimization</li>
+                  <li class="fea-items">Multi-layer Security</li>
+                  <li class="fea-items">Revision: 3</li>
+                  <li class="fea-items">Support: 3 Months</li>
+                  <li class="fea-items">Delivery Time: 3 Days</li>
                  </ul>
                  <a class="cta-btn" href = "link"> Order Now </a>
                </div>
